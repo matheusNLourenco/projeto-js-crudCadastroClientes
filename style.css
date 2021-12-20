@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+  background-color: #1a1a1a;
+}
+
+header h1 {
+  color: #f9f9f9;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding-top: 74px;
+}
+
+.content {
+  box-shadow: 0 0 16px rgba(0, 0, 0, .2);
+  border-radius: 8px;
+  padding: 20px;
+  height: 450px;
+}
+
+.btn-wrapper {
+  margin-bottom: 15px;
+}
+
+.btn {
+  padding: 10px;
+  border: none;
+  color: #f9f9f9;
+  cursor: pointer;
+}
+
+.table-clientes {
+  width: 100%;
+}
+
+.body {
+  overflow: auto;
+}
+
+th,
+td {
+  padding: 10px;
+}
+
+tr:nth-child(even){
+  background-color: #ebebeb;
+}
+
+th {
+  background-color: gold;
+}
+
+.modal {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, .5);
+  opacity: 0;
+  z-index: -1;
+}
+
+.modal.active {
+  opacity: 1;
+  z-index: 1;
+}
+
+.modal-content {
+  max-width: 700px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+}
+
+.modal-body {
+  height: 100%;
+  padding: 50px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.modal-header {
+  background-color: gold;
+  padding: 10px;
+}
+
+.modal .cliente-info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5px;
+  padding: 0 10px;
+}
+.modal input {
+  padding: 10px;
+  width: 100%;
+}
+
+.modal .btn-group {
+  padding: 10px;
+  text-align: right;
+}
+
+.btn-salvar {
+  background-color: green;
+}
+.btn-salvar:hover {
+  background-color: rgb(0, 99, 0);
+}
+
+.btn-cancelar {
+  background-color: dodgerblue;
+}
+.btn-cancelar:hover {
+  background-color: rgb(26, 117, 209);
+}
+
+.btn-cadastro {
+  background-color: dodgerblue;
+}
+.btn-cadastro:hover {
+  background-color: rgb(18, 114, 211);
+}
+
+.btn-editar {
+  background-color: limegreen;
+}
+
+.btn-editar:hover {
+  background-color: rgb(40, 158, 40);
+}
+
+.btn-excluir {
+  background-color: red;
+}
+
+.btn-excluir:hover {
+  background-color: rgb(202, 1, 1);
+}
+
+.btn-group {
+  text-align: center;
+}

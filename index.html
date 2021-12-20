@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Document</title>
+</head>
+<body>
+  <header>
+    <h1>Cadastro de Clientes</h1>
+  </header>
+
+  <main>
+    <div class="container">
+      <div class="content">
+        <div class="btn-wrapper">
+          <button class="btn btn-cadastro" onclick="openModal()">Cadastrar Cliente</button>
+        </div>
+
+        <table class="table-clientes">
+          <thead>
+            <tr>
+              <th>Id</th>
+              <th>Nome</th>
+              <th>E-mail</th>
+              <th>Celular</th>
+              <th>Cidade</th>
+              <th>Ação</th>
+            </tr>
+          </thead>
+          <tbody class="body"></tbody>
+        </table>
+      </div>
+    </div>
+  </main>
+  
+  <div class="modal">
+      <div class="modal-content">
+        <header class="modal-header">
+          <h2>Novo Cliente</h2>
+        </header>
+        <div class="modal-body">
+          <div class="cliente-info">
+            <input type="text" id="name" placeholder="Nome do Cliente">
+            <input type="email" id="email" placeholder="e-mail do Cliente">
+            <input type="tel" id="tel" placeholder="Celular do Cliente">
+            <input type="text" id="city" placeholder="Cidade do Cliente">
+          </div>
+      
+          <div class="btn-group">
+            <button class="btn btn-salvar" id='btn-salvar' onclick="cliente.save()">Salvar</button>
+            <button class="btn btn-cancelar" onclick="cliente.cancel()">Cancelar</button>
+          </div>
+        </div>
+      </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
