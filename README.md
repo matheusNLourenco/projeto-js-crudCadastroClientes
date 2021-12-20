@@ -1,5 +1,5 @@
 <h1 align=" center"> 
-    CRUD Cadastro de Clientes JS 🥁
+    CRUD Cadastro de Clientes JS 📚
 </h1>
 
 <h1>
@@ -7,7 +7,7 @@
 </h1>
 
 <h2 align="center">
-    <a href="https://matheusnlourenco.github.io/projeto-js-calculadora/">Ver projeto</a>
+    <a href="https://matheusnlourenco.github.io/projeto-js-crudCadastroClientes/">Ver projeto</a>
 </h2>
 <h2>🚨 Sobre </h2>
 
