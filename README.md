@@ -16,5 +16,5 @@ Projeto CRUD cadastro de clientes. Feito com js vanilla utilizando classes.
 <h2>🔨 Ferramentas </h2>
 
 - HTML
-- CSS/SASS
+- CSS
 - JAVASCRIPT
